@@ -11,10 +11,9 @@
  * 
  * TODO: 
  * 
- * - Shoot down logos or perhaps heroes in the "looking for group"
- *   application  or members of the facebook group or whatever comes into mind
- * - collision detection and points for shooting down whatever is up there
- * - fine adjust the cannon - let the beers come out of the top of the cannon instead
+ * 
+ *  
+ * LinkedIn integration?
  * - Window resizing and responsiveness
  * - only works in chrome due to offset position flaw when centering an element using a css hack
  * 
