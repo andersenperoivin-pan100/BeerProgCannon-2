@@ -1,12 +1,12 @@
 /*
- * Written by all might dude Per Andersen in 2012
- * First an experiment, then a game for pils and programmering
+ * Written by Pils og Programmering at University of Bergen 2012, forked 2025
+ * First an experiment, then a game for pils and programmering show and tell
  * 
  * Uses jquery and qjuery-rotate plugin
  * 
  * changelog:
- * 
- * 0.0.1 (current) - the cannon shoots out flowers
+ * 2.0 - Shoots a flower instead (under development) 2025-2026
+ * 0.0.1 (current) - the cannon shoots out beers
  * Experimental - the cannon shoots the letter "o" around on the screen
  * 
  * TODO: 
