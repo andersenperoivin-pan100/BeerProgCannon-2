@@ -27,3 +27,5 @@ Change log:
 0.0.1 - experimental 1st commit with the cannon shooting beers.
 
 Contributors: eoma and ljos. Both were given beers.
+
+TODO: This is abandoned and we hope for better forks. FlowerProgCannon is a good idea!
