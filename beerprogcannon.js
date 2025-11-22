@@ -6,7 +6,7 @@
  * 
  * changelog:
  * 
- * 0.0.1 (current) - the cannon shoots out beer glasses
+ * 0.0.1 (current) - the cannon shoots out flowers
  * Experimental - the cannon shoots the letter "o" around on the screen
  * 
  * TODO: 
@@ -86,7 +86,7 @@ var cannonBallStepper = setInterval("cannonBallStep()", intervalDelay);
 var angle = 0;
 var cannonOffset;
 
-var peopleToGiveBeer = [];
+var peopleToGiveflower = [];
 var TIMEBETWEENPERSONS = 600;
 var timeBeforeNextPerson = TIMEBETWEENPERSONS;
 var peopleAdded = 0;
@@ -165,11 +165,11 @@ function cannonBallStep() {
   cannonBalls.forEach(function(item) {
     var itemHasHit = false;
     item.moveForward();
-    peopleToGiveBeer.forEach(function(personToCheckForHit) {
+    peopleToGiveflower.forEach(function(personToCheckForHit) {
       if(overlaps($("#ball" + item.number), $("#person" + personToCheckForHit.number))) {
         itemHasHit =true;
         personToCheckForHit.destroy();
-        peopleToGiveBeer.remove(personToCheckForHit);
+        peopleToGiveflower.remove(personToCheckForHit);
         score++;
         $('#status').html("score: " + score);
       }
@@ -179,11 +179,11 @@ function cannonBallStep() {
       cannonBalls.remove(item);
     }
   });
-  peopleToGiveBeer.forEach(function(item) {
+  peopleToGiveflower.forEach(function(item) {
   	item.moveForward();
   	    if(isOutOfViewPort(item)) {
       item.destroy();
-      peopleToGiveBeer.remove(item);
+      peopleToGiveflower.remove(item);
     }
   });
   
@@ -228,7 +228,7 @@ function CannonBall(angle, numberInRow) {
                    + "' class='cannonBall' style='position:absolute; top:"
 		   + (CENTERPOINTX - 50) 
                    + "px;left:" + (CENTERPOINTY - 22) 
-                   + "px;'><img src='beer.png' id='beerImage" 
+                   + "px;'><img src='flower.png' id='flowerImage" 
                    + this.number 
                    + "'></div>");
   this.element = $("#ball" + this.number);
@@ -320,10 +320,10 @@ function addNewPerson() {
 	var rand = Math.floor((Math.random()*2)+1);
 	if(rand == 1) {
 		var person = new Person(180, peopleAdded, "right");
-		peopleToGiveBeer.push(person);		
+		peopleToGiveflower.push(person);		
 	} 
 	if(rand == 2) {
 		var person = new Person(0, peopleAdded, "left");
-		peopleToGiveBeer.push(person);	
+		peopleToGiveflower.push(person);	
 	}
 }
