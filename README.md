@@ -1,19 +1,13 @@
-BeerProgCannon 0.1.1
-==============
+BeerProgCannon Flower Friends
+=============================
 
-BeerProgCannon - a game for Pils og Programmering
--------------------------------------------------
+BeerProgCannon Flower Friends
+-----------------------------
 
-The game consists of a cannon at the bottom of the browser window, that rotates with mouse movement and shoots beers
+The game consists of a cannon at the bottom of the browser window, that rotates with mouse movement and shoots flowers
 when the mouse button is clicked (the cannon "loads" for a short time - it is not a machine gun).
 
-Images of attendends of "pils og programmering" fly around in the sky. You need to provide them with beer as they are
-o'rly so busy programming. They are thirsty help them out!
-
-TODO:
-Facebook integration. And now it is easier on smaller screens, so it should scale for different resolutions.
-
-A done feature pushed by a member of pils and programming will get a free beer from me (pan100)....
+Feel free to fork this - Creative Commons Licensed
 
 Change log:
 
@@ -28,4 +22,4 @@ Change log:
 
 Contributors: eoma and ljos. Both were given beers.
 
-TODO: This is abandoned and we hope for better forks. FlowerProgCannon is a good idea!
+13 years later: Forked in to a healthy fix of the branch and to be patched with flower and not use beer to shoot with.
